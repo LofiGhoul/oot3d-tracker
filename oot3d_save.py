@@ -28,7 +28,7 @@ except ImportError:
 
 MAGIC = b"ZELDAZ"
 MAGIC_OFF = 0x30          # SaveContext.newf
-MIN_SIZE = 0x14E0         # through the checksum
+MIN_SIZE = 0x14DC         # a real slot file is 0x14DC bytes (through the checksum)
 
 OFF_NAME = 0x1C           # s16[8], UTF-16LE
 OFF_NAME_LEN = 0x2C
